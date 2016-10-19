@@ -1,0 +1,93 @@
+
+
+body	{
+	background-image:	url("../images/code_image.jpg");
+	background-color: #0099cc;
+	text-align:	left;
+/*	font-family: arial;*/
+	color:	#ffffff;
+}
+/*img	{
+	width: 100px;
+	height:	250px;
+}*/
+header	{
+	background-color: #FFED74;
+	font-family: 'Roboto Slab', serif;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height:	50px;
+	padding: 5px;
+	border: 5px grey solid;
+}
+h3	{
+	font-family: 'Roboto Slab', serif;
+	letter-spacing: 2px;
+}
+p {
+	text-align:	center;
+/*	font-family: 'Bree Serif', serif;*/
+	font-family: 'Cormorant Garamond', serif;
+	word-spacing: 2px;
+}
+a {
+	color: #ffffff;
+}
+nav {
+	background-color: #E8C66A;
+	border: 2px black solid;
+	margin: 10px;
+/*	width: 15%;
+	float: right;*/
+}
+section {
+	background-color: #FFE2B8;
+	border: 3px black solid;
+	margin: 20px;
+}
+footer {
+	background-color: #FF957E;
+}
+/*.navigation {
+	width: 15%;
+	float: right;
+}*/
+.summary	{
+	width: 100px;
+	height:	250px;
+}
+#self	{
+	border-radius:	50%;
+	width:	350px;
+	height:	250px;
+}
+#slogan	{
+	font-style:	italic;
+}
+#work	{
+	text-align:	left;
+}
+#education	{
+	text-align: left;
+}
+#projects	{
+	text-align:	left;
+}
+/*ol	{
+	text-align:	left;
+}*/
+
+/*#projects-column div {
+	width: 33%;
+	float: left;
+}*/
+
+/*#projects-column img {
+	width: 100%;
+}*/
+#code {
+	background-color:	#cccccc;
+}
+/*#contact {
+	background-color: #ffffff;
+}*/
