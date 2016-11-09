@@ -1,0 +1,11 @@
+Sub automateSpreadsheet()
+
+	Dim task As Range, listOfTasks As Range
+
+	Set listOfTasks = Range("A1:A10")
+
+	For Each task In listOfTasks
+
+	Next taskh
+
+End Sub
