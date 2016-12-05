@@ -1,0 +1,136 @@
+body	{
+	background-image: url('../images/code_image.jpg');
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+}
+nav	{
+	width: 100%;
+	text-align: center;
+/*	float: right;*/
+	background-color: #ffffff;
+	padding: 1%;
+	word-spacing: 1em;
+	text-decoration: none;
+}
+footer {
+	background-color: #ffffff;
+	color: #999999;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+#bio {
+	text-align: left;
+	width: 65%;
+	padding: 5% 5% 5%;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+#proHeading {
+	text-align: left;
+	padding-left: 2%;
+/*	border: 2px solid #0099ad;*/
+}
+#navSpace {
+	padding-top: 15%;
+}
+#wordSpace {
+/*	word-spacing: 2px;*/
+	word-spacing: .2em;
+}
+#bio {
+/*	line-height: 20px;*/
+	line-height: 1.3em;
+	min-height: 100vh;
+}
+#des {
+	text-align: left;
+	padding-left: 5%;
+	word-spacing: .3em;
+	letter-spacing: .1em;
+	font-family: 'Slabo 27px', serif;
+}
+/*.sections {
+	width: 30%;
+	float: left;
+	text-align: left;
+}*/
+.deg {
+	margin-left: 10%;
+	font-family: 'Raleway', sans-serif;
+}
+.school {
+/*	margin-left: 40px;*/
+	margin-left: 10%;
+}
+.indent {
+/*	margin-left: 20px;*/
+	margin-left: 5%;
+}
+.left {
+	float: left;
+	width: 40%;
+	text-align: left;
+	padding: 2%;
+	line-height: 1.3em;
+	font-family: 'Raleway', sans-serif;
+}
+.right {
+	float: right;
+	width: 55%;
+	padding-top: 5%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#work {
+	text-align: left;
+	width: 65%;
+	padding: 10% 5% 5%;
+	/*min-height: 100vh;*/
+}
+#education {
+	text-align: left;
+	width: 65%;
+	padding: 5%;
+}
+a:hover {
+	background-color: #0099CC;
+	padding: 1%;
+	text-decoration: none;
+}
+@media  only screen and (max-width: 768px) {
+	p {
+		width: 100%;
+	}
+	img {
+		margin-left: 10%;
+	}
+	.left {
+		float: none;
+		width: 90%;
+/*		display: block;*/
+	}
+	.right {
+		float: none;
+		width: 90%;
+/*		display: block;*/
+	}
+}
+@media only screen and (max-width: 480px) {
+	a {
+		display: block;
+		padding: 3%;
+	}
+	a:hover {
+		padding: 3%;
+	}
+}
