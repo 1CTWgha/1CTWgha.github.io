@@ -7,6 +7,13 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+.resume {
+  margin-top: 3em;
+}
+.skills {
+  font-size: 25px;
+  list-style-type: none;
+}
 p {
   font-size: 20px;
 }
